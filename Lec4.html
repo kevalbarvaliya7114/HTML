@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        blockquote {
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- blockquote tag-->
+    <blockquote cite="https://www.sudicobank.com/">
+        First decade of 20th century was a very important era in the history of cooperation for entire country and Surat
+        District as well.
+    </blockquote>
+    <p>
+        First decade of 20th century was a very important era in the history of cooperation for entire country and Surat
+        District as well.
+    </p>
+    <!-- figcaption -->
+
+    <figcaption>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorum, deserunt quisquam hic voluptates nam illum
+        mollitia vitae in, non fugiat nobis minima, porro consectetur placeat. Officia commodi distinctio esse.
+    </figcaption>
+    <figcaption>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorum, deserunt quisquam hic voluptates nam illum
+        mollitia vitae in, non fugiat nobis minima, porro consectetur placeat. Officia commodi distinctio esse.
+    </figcaption>
+
+    <!-- Figure Tag -->
+    <figure>
+        <img src="./322px-Mona_Lisa.jpg" alt="">
+        <figcaption>Artist:-Leonardo da vinci</figcaption>
+    </figure>
+
+    <!-- immage Tag-->
+    <img src="./pixel.jpg" alt="Image From Pixels" height="" width="">
+    <a href="https://www.pexels.com/photo/white-and-brown-concrete-building-near-body-of-water-12770803/">
+        <img src="./pixels.jpg" alt="">
+    </a>
+    <!--Html Table tag-->
+
+    <table bgcolor="green" border="1" cellpadding="10px" cellspacing="10px" >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Keval</td>
+                <td>Backend</td>
+                <td>21</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Jayesh</td>
+                <td>Fullstack</td>
+                <td>24</td>
+                <td>Male</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- rowspan/colspan-->
+
+    <table bgcolor="green" border="1" cellpadding="10px" cellspacing="10px" >
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Keval</td>
+                <td rowspan="2">Backend</td>
+                <td>21</td>
+                <td rowspan=2">Male</td>
+            </tr>
+            <tr>
+                <td>Jayesh</td>
+                <!-- <td>Fullstack</td> -->
+                <td>24</td>
+                <!-- <td>Male</td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- colgroup-->
+
+    <table bgcolor="green" border="1" cellpadding="10px" cellspacing="10px" >
+        <colgroup>
+            <col span="1" bgcolor="blue">
+            <col span="1" bgcolor="yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Keval</td>
+                <td rowspan="2">Backend</td>
+                <td>21</td>
+                <td rowspan=2">Male</td>
+            </tr>
+            <tr>
+                <td>Jayesh</td>
+                <!-- <td>Fullstack</td> -->
+                <td>24</td>
+                <!-- <td>Male</td> -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
