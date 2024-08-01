@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            text-align: center;
+            border: 4px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table bgcolor="white" border="1" cellpadding="10px" cellspacing="10px">
+        <thead>
+            <tr>
+                <th colspan="6">Time Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">Hours</td>
+                <td>Mon</td>
+                <td>Tue</td>
+                <td>Wed</td>
+                <td>Thu</td>
+                <td>Fri</td>
+            </tr>
+            <tr>
+                <!-- <td rowspan="6">Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td >Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <!-- <td rowspan="6">Hours</td> -->
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Arts</td>
+            </tr>
+            <!-- <colgroup>
+                <col span="6">
+                <col span="1">
+            </colgroup> -->
+            <td colspan="6">lunch</td>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <td colspan="2" rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Science</td>
+                <td>Math</td>
+                <!-- <td colspan="2">Project</td> -->
+            </tr>
+        </tbody>
+    </table>
+ 
+</body>
+</html>
